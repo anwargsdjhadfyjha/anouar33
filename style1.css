@@ -1,0 +1,26 @@
+      body{
+            font-family: 'almarai', sans-serif;
+        }
+     .bg-primary{
+        background: #811538 !important;
+     }
+     .header-background{
+        background-image: url(./media/pattern.png);
+     }
+     #header{
+        clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 50%);
+        border-bottom: solid 20px #5b0d25;
+        display: flex;
+     }
+     #logoheader{
+        display: flex;
+        position: absolute;
+        z-index: 999;
+        left: 100px;
+        top: 60px;
+     }
+     #logo-img{
+        height: 200px;
+        -webkit-filter: drop-shadow(5px 5px 30px #222);
+        filter: drop-shadow(5px 5px 30px #666666);
+     }
